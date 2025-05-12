@@ -35,20 +35,20 @@ namespace StringLibrary
             return value.Length;
         }
     }
-    public class NumericString : StringBase
+    public class StringPlus : StringBase
     {
         // Конструктор за замовчуванням 
-        public NumericString() : base()
+        public StringPlus() : base()
         {
         }
 
         // Конструктор з параметром 
-        public NumericString(string str) : base(str)
+        public StringPlus(string str) : base(str)
         {
         }
 
         // Копіюючий конструктор 
-        public NumericString(NumericString other) : base(other)
+        public StringPlus(StringPlus other) : base(other)
         {
         }
 
