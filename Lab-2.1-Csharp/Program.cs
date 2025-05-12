@@ -16,12 +16,12 @@ class Program
 
         // Демонстрація роботи з похідним класом
         Console.WriteLine("Введiть рядок з символом '-'");
-        NumericString numString = new NumericString(Console.ReadLine());
+        StringPlus plString = new StringPlus(Console.ReadLine());
         Console.WriteLine($"Початковий рядок: {numString.GetStringValue()}");
         Console.WriteLine($"Довжина рядка: {numString.CalculateLength()}");
 
         // Видаляємо дефіси
-        numString.RemoveCharacter('-');
+        plString.RemoveCharacter('-');
         Console.WriteLine($"Рядок пiсля видалення '-': {numString.GetStringValue()}");
         Console.WriteLine($"Довжина рядка пiсля змiн: {numString.CalculateLength()}");
 
